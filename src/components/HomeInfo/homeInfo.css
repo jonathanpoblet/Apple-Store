@@ -1,0 +1,107 @@
+.home-info {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.home-info-container-black {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  height: 200px;
+  background-color: #000;
+}
+
+.home-info-container-black-icon {
+  color: #fff;
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+.home-info-container-black-title {
+  color: #fff;
+  font-size: 18px;
+  margin-bottom: 10px;
+  font-weight: 700;
+}
+
+.home-info-container-black-text {
+  color: #e4e4e4;
+  font-size: 16px;
+  text-align: center;
+  padding: 0px 30px;
+  margin-bottom: 0px;
+}
+
+.home-info-container-white {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  height: 200px;
+  background-color: #fff;
+}
+
+.home-info-container-white-icon {
+  color: #000000;
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+.home-info-container-white-title {
+  color: #000000;
+  font-size: 18px;
+  margin-bottom: 10px;
+  font-weight: 700;
+}
+
+.home-info-container-white-text {
+  color: #333333;
+  font-size: 16px;
+  text-align: center;
+  padding: 0px 30px;
+  margin-bottom: 0px;
+}
+
+@media screen and (min-width: 600px) {
+  .home-info-container-white,
+  .home-info-container-black {
+    height: 300px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .home-info-container-white-icon,
+  .home-info-container-black-icon {
+    font-size: 50px;
+  }
+  .home-info-container-white-title,
+  .home-info-container-black-title {
+    font-size: 24px;
+  }
+  .home-info-container-white-text,
+  .home-info-container-black-text {
+    font-size: 20px;
+  }
+}
+
+@media screen and (min-width: 1600px) {
+  .home-info-container-white-icon,
+  .home-info-container-black-icon {
+    font-size: 60px;
+  }
+  .home-info-container-white-title,
+  .home-info-container-black-title {
+    font-size: 26px;
+  }
+  .home-info-container-white-text,
+  .home-info-container-black-text {
+    font-size: 22px;
+  }
+}
