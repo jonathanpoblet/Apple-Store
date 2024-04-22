@@ -92,6 +92,10 @@
 }
 
 @media screen and (min-width: 1600px) {
+  .home-info-container-white,
+  .home-info-container-black {
+    height: 350px;
+  }
   .home-info-container-white-icon,
   .home-info-container-black-icon {
     font-size: 60px;
