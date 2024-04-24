@@ -1,14 +1,9 @@
-import React from "react";
-import Carousel from "react-bootstrap/Carousel";
-import "./homeCarousel.css";
+import React from 'react';
+import Carousel from 'react-bootstrap/Carousel';
+import './homeCarousel.css';
 
 export default function HomeCarousel() {
-  const imgs = [
-    "../../../public/assets/HomeCarousel/ipads.jpg",
-    "../../../public/assets/HomeCarousel/iphone.jpg",
-    "../../../public/assets/HomeCarousel/macbook1.jpg",
-    "../../../public/assets/HomeCarousel/macbook2.jpg",
-  ];
+  const imgs = ['../../../public/assets/HomeCarousel/iphone.jpg', '../../../public/assets/HomeCarousel/ipads.jpg', '../../../public/assets/HomeCarousel/macbook1.jpg', '../../../public/assets/HomeCarousel/macbook2.jpg'];
 
   return (
     <section>

@@ -10,23 +10,15 @@
   background-color: rgba(0, 0, 0, 0.829) !important;
 }
 
-@media screen and (min-width: 400px) {
-  .carousel-item-img {
-    object-fit: cover;
-    object-position: center bottom;
-    max-height: 500px;
-  }
+.carousel-item-img {
+  min-height: 400px !important;
+  object-fit: cover;
+  object-position: center bottom;
 }
 
-@media screen and (min-width: 500px) {
+@media screen and (min-width: 1000px) {
   .carousel-item-img {
-    max-height: 500px;
-  }
-}
-
-@media screen and (min-width: 800px) {
-  .carousel-item-img {
-    max-height: 650px;
+    max-height: 670px;
   }
 }
 
@@ -38,6 +30,6 @@
 
 @media screen and (min-width: 1290px) {
   .carousel-item-img {
-    max-height: 90%;
+    max-height: 90% !important;
   }
 }
