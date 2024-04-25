@@ -4,10 +4,10 @@ import "./homeCarousel.css";
 
 export default function HomeCarousel() {
   const imgs = [
-    "../../../public/assets/HomeCarousel/ipads.jpg",
-    "../../../public/assets/HomeCarousel/iphone.jpg",
-    "../../../public/assets/HomeCarousel/macbook1.jpg",
-    "../../../public/assets/HomeCarousel/macbook2.jpg",
+    "../../../public/assets/HomeCarousel/iphone.png",
+    "../../../public/assets/HomeCarousel/ipads.png",
+    "../../../public/assets/HomeCarousel/macbook1.png",
+    "../../../public/assets/HomeCarousel/macbook2.png",
   ];
 
   return (
