@@ -12,8 +12,8 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 50%;
-  height: 200px;
+  width: 100%;
+  padding: 30px;
   background-color: #000;
 }
 
@@ -43,8 +43,8 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 50%;
-  height: 200px;
+  width: 100%;
+  padding: 30px;
   background-color: #fff;
 }
 
@@ -73,6 +73,13 @@
   .home-info-container-white,
   .home-info-container-black {
     height: 300px;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .home-info-container-white,
+  .home-info-container-black {
+    width: 25%;
   }
 }
 
