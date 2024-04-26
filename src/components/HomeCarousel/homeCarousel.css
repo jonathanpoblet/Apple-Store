@@ -12,5 +12,5 @@
 .carousel-item-img {
   object-fit: cover;
   object-position: center bottom;
-  min-height: 400px;
+  min-height: 470px;
 }
